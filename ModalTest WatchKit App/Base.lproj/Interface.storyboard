@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13196" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13051"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="ModalTest_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Present with Alert" id="peq-b5-vvs">
+                            <connections>
+                                <action selector="presentModalWithAlert" destination="AgC-eL-Hgc" id="e4c-5h-8Qu"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Present with Alert Async" id="TVX-fO-Tck">
+                            <connections>
+                                <action selector="presentModalWithAlertAsync" destination="AgC-eL-Hgc" id="ee1-WR-889"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Present" id="4q4-UX-veN">
+                            <connections>
+                                <action selector="presentModal" destination="AgC-eL-Hgc" id="06J-Qj-FaL"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+        </scene>
+        <!--PresentedInterfaceController-->
+        <scene sceneID="NQS-0k-AA2">
+            <objects>
+                <controller identifier="PresentedInterfaceController" id="tyG-Zk-Dqc" customClass="PresentedInterfaceController" customModule="ModalTest_WatchKit_Extension">
+                    <items>
+                        <label alignment="center" verticalAlignment="center" text="Presented Controller" minimumScaleFactor="0.29999999999999999" id="3vf-Hs-yWa"/>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Dismiss" id="1XB-Kz-CVL">
+                            <connections>
+                                <action selector="dismissSelf" destination="tyG-Zk-Dqc" id="6dd-54-C04"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="30" y="333"/>
+        </scene>
+    </scenes>
+</document>

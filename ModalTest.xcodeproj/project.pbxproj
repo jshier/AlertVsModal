@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		311C71E11F85752C00338DD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311C71E01F85752C00338DD1 /* AppDelegate.swift */; };
+		311C71E31F85752C00338DD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311C71E21F85752C00338DD1 /* ViewController.swift */; };
+		311C71E61F85752C00338DD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311C71E41F85752C00338DD1 /* Main.storyboard */; };
+		311C71E81F85752C00338DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311C71E71F85752C00338DD1 /* Assets.xcassets */; };
+		311C71EB1F85752C00338DD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311C71E91F85752C00338DD1 /* LaunchScreen.storyboard */; };
+		311C71F01F85752D00338DD1 /* ModalTest WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 311C71EF1F85752C00338DD1 /* ModalTest WatchKit App.app */; };
+		311C71F61F85752D00338DD1 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311C71F41F85752D00338DD1 /* Interface.storyboard */; };
+		311C71F81F85752D00338DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311C71F71F85752D00338DD1 /* Assets.xcassets */; };
+		311C71FF1F85752D00338DD1 /* ModalTest WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 311C71FE1F85752D00338DD1 /* ModalTest WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		311C72041F85752D00338DD1 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311C72031F85752D00338DD1 /* InterfaceController.swift */; };
+		311C72061F85752D00338DD1 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311C72051F85752D00338DD1 /* ExtensionDelegate.swift */; };
+		311C72081F85752D00338DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311C72071F85752D00338DD1 /* Assets.xcassets */; };
+		318373A61F857BC300801731 /* PresentedInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318373A51F857BC200801731 /* PresentedInterfaceController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		311C71F11F85752D00338DD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 311C71D51F85752C00338DD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 311C71EE1F85752C00338DD1;
+			remoteInfo = "ModalTest WatchKit App";
+		};
+		311C72001F85752D00338DD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 311C71D51F85752C00338DD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 311C71FD1F85752D00338DD1;
+			remoteInfo = "ModalTest WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		311C720F1F85752D00338DD1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				311C71FF1F85752D00338DD1 /* ModalTest WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311C72131F85752D00338DD1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				311C71F01F85752D00338DD1 /* ModalTest WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		311C71DD1F85752C00338DD1 /* ModalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		311C71E01F85752C00338DD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		311C71E21F85752C00338DD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		311C71E51F85752C00338DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		311C71E71F85752C00338DD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		311C71EA1F85752C00338DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		311C71EC1F85752C00338DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311C71EF1F85752C00338DD1 /* ModalTest WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ModalTest WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		311C71F51F85752D00338DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		311C71F71F85752D00338DD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		311C71F91F85752D00338DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311C71FE1F85752D00338DD1 /* ModalTest WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ModalTest WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		311C72031F85752D00338DD1 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		311C72051F85752D00338DD1 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		311C72071F85752D00338DD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		311C72091F85752D00338DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		318373A51F857BC200801731 /* PresentedInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentedInterfaceController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		311C71DA1F85752C00338DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311C71FB1F85752D00338DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		311C71D41F85752C00338DD1 = {
+			isa = PBXGroup;
+			children = (
+				311C71DF1F85752C00338DD1 /* ModalTest */,
+				311C71F31F85752D00338DD1 /* ModalTest WatchKit App */,
+				311C72021F85752D00338DD1 /* ModalTest WatchKit Extension */,
+				311C71DE1F85752C00338DD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		311C71DE1F85752C00338DD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				311C71DD1F85752C00338DD1 /* ModalTest.app */,
+				311C71EF1F85752C00338DD1 /* ModalTest WatchKit App.app */,
+				311C71FE1F85752D00338DD1 /* ModalTest WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		311C71DF1F85752C00338DD1 /* ModalTest */ = {
+			isa = PBXGroup;
+			children = (
+				311C71E01F85752C00338DD1 /* AppDelegate.swift */,
+				311C71E21F85752C00338DD1 /* ViewController.swift */,
+				311C71E41F85752C00338DD1 /* Main.storyboard */,
+				311C71E71F85752C00338DD1 /* Assets.xcassets */,
+				311C71E91F85752C00338DD1 /* LaunchScreen.storyboard */,
+				311C71EC1F85752C00338DD1 /* Info.plist */,
+			);
+			path = ModalTest;
+			sourceTree = "<group>";
+		};
+		311C71F31F85752D00338DD1 /* ModalTest WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				311C71F41F85752D00338DD1 /* Interface.storyboard */,
+				311C71F71F85752D00338DD1 /* Assets.xcassets */,
+				311C71F91F85752D00338DD1 /* Info.plist */,
+			);
+			path = "ModalTest WatchKit App";
+			sourceTree = "<group>";
+		};
+		311C72021F85752D00338DD1 /* ModalTest WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				311C72051F85752D00338DD1 /* ExtensionDelegate.swift */,
+				311C72031F85752D00338DD1 /* InterfaceController.swift */,
+				318373A51F857BC200801731 /* PresentedInterfaceController.swift */,
+				311C72071F85752D00338DD1 /* Assets.xcassets */,
+				311C72091F85752D00338DD1 /* Info.plist */,
+			);
+			path = "ModalTest WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		311C71DC1F85752C00338DD1 /* ModalTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311C72141F85752D00338DD1 /* Build configuration list for PBXNativeTarget "ModalTest" */;
+			buildPhases = (
+				311C71D91F85752C00338DD1 /* Sources */,
+				311C71DA1F85752C00338DD1 /* Frameworks */,
+				311C71DB1F85752C00338DD1 /* Resources */,
+				311C72131F85752D00338DD1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				311C71F21F85752D00338DD1 /* PBXTargetDependency */,
+			);
+			name = ModalTest;
+			productName = ModalTest;
+			productReference = 311C71DD1F85752C00338DD1 /* ModalTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		311C71EE1F85752C00338DD1 /* ModalTest WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311C72101F85752D00338DD1 /* Build configuration list for PBXNativeTarget "ModalTest WatchKit App" */;
+			buildPhases = (
+				311C71ED1F85752C00338DD1 /* Resources */,
+				311C720F1F85752D00338DD1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				311C72011F85752D00338DD1 /* PBXTargetDependency */,
+			);
+			name = "ModalTest WatchKit App";
+			productName = "ModalTest WatchKit App";
+			productReference = 311C71EF1F85752C00338DD1 /* ModalTest WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		311C71FD1F85752D00338DD1 /* ModalTest WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311C720C1F85752D00338DD1 /* Build configuration list for PBXNativeTarget "ModalTest WatchKit Extension" */;
+			buildPhases = (
+				311C71FA1F85752D00338DD1 /* Sources */,
+				311C71FB1F85752D00338DD1 /* Frameworks */,
+				311C71FC1F85752D00338DD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ModalTest WatchKit Extension";
+			productName = "ModalTest WatchKit Extension";
+			productReference = 311C71FE1F85752D00338DD1 /* ModalTest WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		311C71D51F85752C00338DD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Jon Shier";
+				TargetAttributes = {
+					311C71DC1F85752C00338DD1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					311C71EE1F85752C00338DD1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					311C71FD1F85752D00338DD1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 311C71D81F85752C00338DD1 /* Build configuration list for PBXProject "ModalTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 311C71D41F85752C00338DD1;
+			productRefGroup = 311C71DE1F85752C00338DD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				311C71DC1F85752C00338DD1 /* ModalTest */,
+				311C71EE1F85752C00338DD1 /* ModalTest WatchKit App */,
+				311C71FD1F85752D00338DD1 /* ModalTest WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		311C71DB1F85752C00338DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311C71EB1F85752C00338DD1 /* LaunchScreen.storyboard in Resources */,
+				311C71E81F85752C00338DD1 /* Assets.xcassets in Resources */,
+				311C71E61F85752C00338DD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311C71ED1F85752C00338DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311C71F81F85752D00338DD1 /* Assets.xcassets in Resources */,
+				311C71F61F85752D00338DD1 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311C71FC1F85752D00338DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311C72081F85752D00338DD1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		311C71D91F85752C00338DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311C71E31F85752C00338DD1 /* ViewController.swift in Sources */,
+				311C71E11F85752C00338DD1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311C71FA1F85752D00338DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318373A61F857BC300801731 /* PresentedInterfaceController.swift in Sources */,
+				311C72061F85752D00338DD1 /* ExtensionDelegate.swift in Sources */,
+				311C72041F85752D00338DD1 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		311C71F21F85752D00338DD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 311C71EE1F85752C00338DD1 /* ModalTest WatchKit App */;
+			targetProxy = 311C71F11F85752D00338DD1 /* PBXContainerItemProxy */;
+		};
+		311C72011F85752D00338DD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 311C71FD1F85752D00338DD1 /* ModalTest WatchKit Extension */;
+			targetProxy = 311C72001F85752D00338DD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		311C71E41F85752C00338DD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				311C71E51F85752C00338DD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		311C71E91F85752C00338DD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				311C71EA1F85752C00338DD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		311C71F41F85752D00338DD1 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				311C71F51F85752D00338DD1 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		311C720A1F85752D00338DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		311C720B1F85752D00338DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		311C720D1F85752D00338DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ModalTest WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.ModalTest.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		311C720E1F85752D00338DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ModalTest WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.ModalTest.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		311C72111F85752D00338DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = ModalTest_WatchKit_Extension;
+				INFOPLIST_FILE = "ModalTest WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.ModalTest.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		311C72121F85752D00338DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = ModalTest_WatchKit_Extension;
+				INFOPLIST_FILE = "ModalTest WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.ModalTest.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		311C72151F85752D00338DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ModalTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.ModalTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		311C72161F85752D00338DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ModalTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.ModalTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		311C71D81F85752C00338DD1 /* Build configuration list for PBXProject "ModalTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311C720A1F85752D00338DD1 /* Debug */,
+				311C720B1F85752D00338DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		311C720C1F85752D00338DD1 /* Build configuration list for PBXNativeTarget "ModalTest WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311C720D1F85752D00338DD1 /* Debug */,
+				311C720E1F85752D00338DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		311C72101F85752D00338DD1 /* Build configuration list for PBXNativeTarget "ModalTest WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311C72111F85752D00338DD1 /* Debug */,
+				311C72121F85752D00338DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		311C72141F85752D00338DD1 /* Build configuration list for PBXNativeTarget "ModalTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311C72151F85752D00338DD1 /* Debug */,
+				311C72161F85752D00338DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 311C71D51F85752C00338DD1 /* Project object */;
+}
